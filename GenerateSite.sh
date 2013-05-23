@@ -1,0 +1,1 @@
+java -classpath "release/signatory-v0.1.0.jar;lib/velocity-1.7.jar;lib/velocity-1.7-dep.jar" com.simoncurd.signatory.GenerateSite $1 $2
