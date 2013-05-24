@@ -13,6 +13,8 @@ Signatory includes a custom Velocity Directive called `decorate`, which allows a
 template to wrapped around another template, as shown in the bundled examples
 and discussed [here](http://simoncurd.com/2013/03/17/using-decorators-in-velocity-without-sitemesh/).
 
+<img src="https://api.travis-ci.org/simoncurd/signatory.png"/>
+
 # Getting Started
 
 You can use Signatory directly at command line using the supplied scripts
