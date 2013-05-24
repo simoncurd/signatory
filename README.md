@@ -3,11 +3,15 @@
 Signatory is a static site generator for Java, which uses Velocity templates.
 
 There are plenty of powerful static site generators out there, which do all manner
-of wizzy things. This is currently very basic.
+of wizzy things. This is not one of them. It's currently very basic.
 
 Velocity templates go into the source directory (default is `files/source`), as per
 the bundled example files. Following generation, the resulting files are written to
 the target directory. 
+
+Signatory includes a custom Velocity Directive called `decorate`, which allows a 
+template to wrapped around another template, as shown in the bundled examples
+and discussed [here](http://simoncurd.com/2013/03/17/using-decorators-in-velocity-without-sitemesh/).
 
 # Getting Started
 
@@ -18,7 +22,7 @@ You can use Signatory directly at command line using the supplied scripts
 	GenerateSite [optional: <source directory> <target directory>]
 
 Note: 
-* The default paths are `files/source` and `files/target` respectively
+* Default paths are `files/source` and `files/target` respectively
 
 # Latest Version
 
